@@ -1,0 +1,12 @@
+   ########## Important notice ##########
+
+
+1. If a variable is private its can not be access by different class. (Private variable)
+
+2. In dart if i use ("_") before a variable , method , class it will considered as the private .
+
+3. when we don't want to use direct instance then we use abstract class .
+
+4. "late"  keywords is use before declare a variable it means that this variable is not nullable , later it will be initialized.
+
+5. 
