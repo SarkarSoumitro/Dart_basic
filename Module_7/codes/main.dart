@@ -9,4 +9,5 @@ void main(){
 
   soumitro.setSalary=39200;
   soumitro.salary;
+  soumitro.company;
 }
