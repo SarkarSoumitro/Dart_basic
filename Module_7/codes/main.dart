@@ -1,13 +1,18 @@
 import 'getter_setter.dart';
 
-void main(){
-  worker soumitro = worker();
-  soumitro.company;
-  soumitro.designation;
-  soumitro.salary;
+void main() {
+  Worker soumitro = Worker();
+
+  print(soumitro.company);   // Output: ABC
+  print(soumitro.designation);
   print(soumitro.salary);
 
-  soumitro.setSalary=39200;
-  soumitro.salary;
-  soumitro.company;
+  // Valid salary increase
+  soumitro.salary = 34800;
+  print(soumitro.salary);
+
+  // Invalid salary increase
+  soumitro.salary = 28500;
+  print(soumitro.salary);
+
 }

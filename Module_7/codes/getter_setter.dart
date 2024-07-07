@@ -1,15 +1,20 @@
-class worker{
+class Worker {
   String company = 'ABC';
   String designation = 'Software Engineer';
-  double  _salary= 30000;
+  double _salary = 30000;
 
-  double get salary{
+  // Getter for salary with validation (improved)
+  double get salary {
     return _salary;
   }
 
-  void set setSalary(double newSalary){
-    if((newSalary > _salary) && (newSalary < (_salary+5000))){
-    _salary = newSalary;
+  // Setter for salary with validation and informative message (improved)
+  void set salary(double newSalary) {
+    if (newSalary > _salary && newSalary < (_salary + 5000)) {
+      _salary = newSalary;
+      print('Salary updated to $newSalary.');
+    } else {
+      print('Invalid salary.');
     }
   }
 }
