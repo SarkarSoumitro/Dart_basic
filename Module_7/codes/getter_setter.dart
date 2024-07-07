@@ -1,7 +1,10 @@
 class Worker {
+
   String company = 'ABC';
-  String designation = 'Software Engineer';
+  String _designation = 'Software Engineer';
   double _salary = 30000;
+
+
 
   // Getter for salary with validation (improved)
   double get salary {
@@ -16,5 +19,8 @@ class Worker {
     } else {
       print('Invalid salary.');
     }
+  }
+  String get designation{
+    return _designation;
   }
 }

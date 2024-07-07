@@ -3,7 +3,9 @@ import 'getter_setter.dart';
 void main() {
   Worker soumitro = Worker();
 
-  print(soumitro.company);   // Output: ABC
+  print(soumitro.company); // Output: ABC
+
+  // getter have been initialized
   print(soumitro.designation);
   print(soumitro.salary);
 
