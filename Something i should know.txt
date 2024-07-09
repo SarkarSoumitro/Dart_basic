@@ -9,4 +9,8 @@
 
 4. "late"  keywords is use before declare a variable it means that this variable is not nullable , later it will be initialized.
 
-5. 
+5. In generics synchronous and asynchronous operation are held.
+
+6. In steam we use this keywords => async* , yield (instead of return) , in the main several ways to receive value from the steam function.
+
+7. By using mixim a class can inherit multiple class  by "with" keywords.
