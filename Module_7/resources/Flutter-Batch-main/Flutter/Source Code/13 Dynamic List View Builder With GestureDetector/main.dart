@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget{
 class HomeActivity extends StatelessWidget{
 
   var MyItems=[
-    {"img":"https://cdn.rabbil.com/photos/images/2022/11/05/Artboard--5.jpg","title":"Rabbil"},
-    {"img":"https://cdn.rabbil.com/photos/images/2022/11/05/Artboard--5.jpg","title":"Rupom"},
+    {"img":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg","title":"Rabbil"},
+    {"img":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Shah_Rukh_Khan_%26_Kajol_unveil_the_special_coffee_table_book_%27DDLJ%27.jpg/330px-Shah_Rukh_Khan_%26_Kajol_unveil_the_special_coffee_table_book_%27DDLJ%27.jpg","title":"Rupom"},
     {"img":"https://cdn.rabbil.com/photos/images/2022/11/05/Artboard--5.jpg","title":"Hasan"},
     {"img":"https://cdn.rabbil.com/photos/images/2022/11/05/Artboard--5.jpg","title":"Salif"},
     {"img":"https://cdn.rabbil.com/photos/images/2022/11/05/Artboard--5.jpg","title":"Alhasan"},
