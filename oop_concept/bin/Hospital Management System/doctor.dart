@@ -5,7 +5,7 @@ class doctor extends person{
   doctor(super.Name,super.age,this.specialization);
 
   @override
-  void info(){
+  void showInfo(){
     print("Doctors name : $Name, Age : $age, Specialize : $specialization");
   }
 

@@ -9,7 +9,7 @@ class patient extends person{
   }
 
   @override
-  void info(){
+  void showInfo(){
     print("Patient name : $Name, Age: $age,id : $id, Disease name : $disease");
   }
 

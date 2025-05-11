@@ -5,6 +5,6 @@ abstract class person{
 
   person(this.Name,this.age);
 
-  void info(){}
-  
+  void showInfo(){}
+
 }
